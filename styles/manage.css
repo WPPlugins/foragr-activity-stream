@@ -1,0 +1,33 @@
+ul#fgr-tabs li {
+}
+ul#fgr-tabs li.selected {
+	border-bottom: 3px solid #ffa100;
+}
+ul#fgr-tabs li {
+	float: left;
+	color: #333;
+	padding: 0.25em;
+	height: 16px;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+ul#fgr-tabs {
+	display: block;
+	height: 20px;
+	list-style: none;
+	margin: 15px 0;
+	padding: 0;
+	border: 0;
+	position: absolute;
+	right: 10px;
+}
+
+select.fgr-replace {
+    border-color: #C6D9E9;
+}
+
+.fgr-content h2 {
+	margin: 15px 0 10px;
+	padding: 0;
+}
